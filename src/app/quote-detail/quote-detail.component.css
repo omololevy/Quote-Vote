@@ -1,0 +1,18 @@
+#voting {
+    margin-left: 0%;
+}
+
+#submittern {
+    color: rgb(192, 26, 151);
+    font-style: italic;
+}
+
+#upvote_btn {
+    margin: 5px;
+}
+
+#del_btn {
+    font-size: 19px;
+    color: white;
+    margin-left: 15px;
+}
