@@ -1,1 +1,43 @@
-<p>quote-form works!</p>
+<!DOCTYPE html5>
+<div class="container-fluid  shadow p-3 mb-5 bg-white rounded">
+
+    <h5 class="text-center">
+        Do you wish to add your Quote?
+    </h5>
+    <form (ngSubmit)='submitQuote()' #quoteForm='ngForm'>
+        <div class="title">
+            Enter the Quote details below:
+        </div>
+        <div class="form-group">
+            <label for="quote-title" class="title">Quote  Title</label>
+            <input type="text" class="form-control" placeholder="Title of Your Quote" id="quote" [(ngModel)]="newQuote.quote" name="quote" #name='ngModel' required>
+            <div [hidden]="name.valid  || name.pristine" class="alert alert-danger">
+                <p>Quote Title is required</p>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="quote" class="title">Quote</label>
+            <input type="text" id="description" class="form-control" placeholder="Enter Your Quote" [(ngModel)]="newQuote.description" name="description" #quote='ngModel' required>
+            <div [hidden]="quote.valid  || quote.pristine" class="alert alert-danger">
+                <p>Quote is required</p>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="author" class="title">Author</label>
+            <input type="text" id="author" class="form-control" placeholder="Author of the Quote" [(ngModel)]="newQuote.author" name="author" #author='ngModel' required>
+            <div [hidden]="author.valid  || author.pristine" class="alert alert-danger">
+                <p>Author is required</p>
+            </div>
+        </div>
+        <div class="form-group">
+            <label for="name" class="title">Your Name</label>
+            <input type="text" id="submit_by" class="form-control" placeholder="Your Name" [(ngModel)]="newQuote.submit_by" name="Submit_by" #submit_by='ngModel' required>
+            <div [hidden]="submit_by.valid  || submit_by.pristine" class="alert alert-danger">
+                <p>Your Name is required</p>
+            </div>
+        </div>
+        <div class="wrapper">
+            <button [disabled]="!quoteForm.valid" id="addquote_btn" type="submit" class="btn btn-sm btn-success">Add Quote</button>
+        </div>
+    </form>
+</div>
