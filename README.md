@@ -50,5 +50,5 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## Support and contact details
 contact me @omololevy@gmail.com
 ### License
-The project is under [MIT license](https://github.com/Levy/Quote-Vote/blob/master/LICENSE) 
+The project is under [MIT license](https://github.com/omololevy/Quote-Vote/commit/388e1788c5d156476a55a8c4e4421a8fb68c885d) 
 Copyright &copy; 2021.All rigths reserved
