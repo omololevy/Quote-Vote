@@ -10,7 +10,7 @@ export class HighlightDirective {
 
   @HostListener("click") maxLikes(){
     
-    this.quote_highlight("green")
+    this.quote_highlight("blue")
   }
 
 
