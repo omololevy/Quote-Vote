@@ -13,7 +13,7 @@ This project was generated with [Angular CLI](https://github.com/angular/angular
 ## Project live site
   This is the live [link](https://omololevy.github.io/Quote-Vote/)
 
-  ![Image](./images/demo.png)
+  ![Image](./src/assets/demo.png)
 
 
 ## Set Up Instructions
