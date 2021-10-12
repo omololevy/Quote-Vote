@@ -1,1 +1,9 @@
-<p>quote-detail works!</p>
+<div class="container-fluid" id="voting">
+    Author: ~ <span id="submittern"> {{ quote.author }} </span>
+
+    <button type="button" class="btn btn-outline-primary" id="upvote_btn" (click)='upVote()'>Up-Vote <i  class="fa fa-thumbs-up"> {{ quote.likes}} </i> </button>
+
+    <button type="button" class="btn btn-outline-danger" id="downvote_btn" (click)='downVote()'>Down-Vote<i class="fa fa-thumbs-down"></i> {{ quote.dislikes }} </button>
+
+    <button (click)='quoteDelete(true)' class="btn btn-sm btn-danger" id="del_btn">Del<i class="fa fa-trash-o"></i></button>
+</div>
