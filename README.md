@@ -1,5 +1,5 @@
 # VOTE-QUOTE
-#### This is a project on developing an application where users can create quotes and have those quotes voted on whether they are terrible or are inspirational..
+#### This is a angular project on developing an application where users can create quotes and have those quotes voted on whether they are terrible or are inspirational..
  
  ***Tuesday October 12 2021*** 
 #### By **OMOLO LEVY**&trade;
